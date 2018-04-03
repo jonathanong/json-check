@@ -1,0 +1,22 @@
+{
+  "name": "json-check",
+  "version": "1.0.0",
+  "description": "JSON file checker",
+  "main": "bin.js",
+  "bin": {
+    "json-check": "bin.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "globby": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [
+    "json",
+    "lint"
+  ],
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "license": "MIT"
+}
