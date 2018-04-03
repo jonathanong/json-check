@@ -1,5 +1,5 @@
 {
-  "name": "json-check",
+  "name": "@jongleberry/json-check",
   "version": "1.0.0",
   "description": "JSON file checker",
   "main": "bin.js",

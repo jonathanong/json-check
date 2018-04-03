@@ -6,7 +6,7 @@ A stupid JSON checker to make sure your JSON files are valid.
 Installation:
 
 ```bash
-npm install json-check
+npm install @jongleberry/json-check
 ```
 
 Usage:
