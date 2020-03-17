@@ -1,6 +1,6 @@
 # json-check
 
-A JSON checker, insuring JSON files are valid.
+A JSON checker, ensuring JSON files are valid.
 
 Installation:
 
