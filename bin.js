@@ -11,7 +11,7 @@ const fs = require('fs')
 
 const files = globby.sync(program.args)
 
-files.forEach((file) => {
+files.forEach(file => {
   const str = fs.readFileSync(file, 'utf8')
   try {
     JSON.parse(str)
