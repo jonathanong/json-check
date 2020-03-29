@@ -1,6 +1,6 @@
 {
   "name": "@jongleberry/json-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON file checker",
   "main": "bin.js",
   "bin": {
@@ -11,8 +11,24 @@
     "commander": "^2.15.1",
     "globby": "^7.1.1"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "lint:ci": "eslint .",
+    "format": "prettier --write {bin.js,README.md}",
+    "test": "npm run lint:ci"
+  },
   "keywords": [
     "json",
     "lint"
